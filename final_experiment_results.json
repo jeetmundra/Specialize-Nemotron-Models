@@ -1,0 +1,34 @@
+{
+    "Baseline": {
+        "VRAM (GB)": 7.81,
+        "Parameters": "4.19B",
+        "Latency (ms/tok)": 10.91,
+        "Throughput (tok/s)": 91.69,
+        "Benchmark Total": "20/50",
+        "Benchmark Pass Rate %": 40.0,
+        "HumanEval Compilation %": 4.9,
+        "HumanEval Pass@1 %": 2.4,
+        "Categories": {
+            "STL & Data Structures": 4,
+            "Dynamic Programming": 4,
+            "Graph & Tree Algorithms": 4,
+            "String & Parsing": 2,
+            "Math & Bitwise": 6
+        }
+    },
+    "Specialized (Merged)": {
+        "Latency (ms/tok)": 11.02,
+        "Throughput (tok/s)": 90.71,
+        "Benchmark Total": "31/50",
+        "Benchmark Pass Rate %": 62.0,
+        "HumanEval Compilation %": 14.0,
+        "HumanEval Pass@1 %": 1.8,
+        "Categories": {
+            "STL & Data Structures": 7,
+            "Dynamic Programming": 7,
+            "Graph & Tree Algorithms": 5,
+            "String & Parsing": 6,
+            "Math & Bitwise": 6
+        }
+    }
+}

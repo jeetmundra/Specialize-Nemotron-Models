@@ -1,0 +1,30 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# HuggingFace & Training Caches
+hf_cache/
+lora_nemotron_cpp/
+wandb/
+.cache/
+
+# Temporary Sandbox Binaries and Sources
+temp_test_bin*
+temp_eval_bin*
+bench_*
+he_*
+*.dSYM/
+
+# Logs & Environment
+*.log
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# OS specific
+.DS_Store
+Thumbs.db
